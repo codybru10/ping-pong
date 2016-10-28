@@ -1,11 +1,19 @@
 
 var counter = 0
 var emptyArray = []
+var ping = "ping";
+
 var pingPong = function(input) {
 debugger;
   for ( var index = 0; index < input; index++) {
     counter += 1;
     emptyArray.push(counter);
+
+  if (emptyArray[index] % 3 === 0) {
+      emptyArray.pop();
+      emptyArray.push(ping);
+    }
+
   }
   return emptyArray
 }
