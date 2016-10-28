@@ -13,6 +13,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _Clone repository and open index.html with browser_
 * _Visit ghpages or follow link_
 
+## Specifications
+* _This can count up to the provided number_
+* _This will replace all numbers divisible by 3 with "ping" in desired range._
+* _This will replace all numbers divisible by 5 with "pong" in desired range._
+* _This will replace all numbers divisinle by 15 with "ping-pong" in desired range._
+
 
 ## Known Bugs
 
