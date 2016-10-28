@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #2464cc;
+  background: linear-gradient(#2464cc, white) fixed;
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -36,5 +37,9 @@ form {
 .image img{
   float: right;
   max-height: 300px;
+  border-radius: 180px;
+}
 
+#output li {
+  color: black;
 }
