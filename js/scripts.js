@@ -1,6 +1,4 @@
 
-var counter = 0
-var emptyArray = []
 var ping = "ping";
 var pong = "pong";
 var pingPong = "ping-pong";
@@ -8,7 +6,9 @@ var pingPong = "ping-pong";
 
 var pingPongFnc = function(input) {
 debugger;
-  emptyArray = [];
+
+var counter = 0
+var emptyArray = []
   for ( var index = 0; index < input; index++) {
     counter += 1;
     emptyArray.push(counter);
@@ -35,7 +35,7 @@ $(document).ready(function(){
 debugger;
     var userInput = parseInt($("#input").val());
     var result = pingPongFnc(userInput);
-    $("ul").append("<li>" + result + "</li>");
+    $("ul").text(result);
 
   });
 });
