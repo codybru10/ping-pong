@@ -34,10 +34,12 @@ var emptyArray = []
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
+    $("ul").empty();
 debugger;
     var userInput = parseInt($("#input").val());
     var result = pingPongFnc(userInput);
 
+    $(result).hide();
     result.forEach(function(element){
       $("ul").append("<li>" + element + "</li>")
     });
