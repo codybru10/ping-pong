@@ -37,6 +37,7 @@ $(document).ready(function(){
 debugger;
     var userInput = parseInt($("#input").val());
     var result = pingPongFnc(userInput);
+
     result.forEach(function(element){
       $("ul").append("<li>" + element + "</li>")
     });
