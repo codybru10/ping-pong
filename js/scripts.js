@@ -1,4 +1,4 @@
-
+//Business Logic
 var ping = "ping";
 var pong = "pong";
 var pingPong = "ping-pong";
@@ -29,13 +29,17 @@ var emptyArray = []
   return emptyArray
 }
 
+
+//Userinterface Logic
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
 debugger;
     var userInput = parseInt($("#input").val());
     var result = pingPongFnc(userInput);
-    $("ul").text(result);
+    result.forEach(function(element){
+      $("ul").append("<li>" + element + "</li>")
+    });
 
   });
 });
