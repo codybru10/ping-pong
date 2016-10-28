@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program will display a range of numbers based on your input and replace multiples of 3 with "ping", and multiples of 5 with "pong", and multiples of 15 with "ping-pong."_
 
 ## Setup/Installation Requirements
 
@@ -18,11 +18,6 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _This will replace all numbers divisible by 3 with "ping" in desired range._
 * _This will replace all numbers divisible by 5 with "pong" in desired range._
 * _This will replace all numbers divisinle by 15 with "ping-pong" in desired range._
-
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Support and contact details
 
